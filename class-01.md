@@ -3,12 +3,13 @@
 
 #### Hello, This is Fatima. You can view my Markdown webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-01)
 
-#### In this blog I will give a summary for the chapters 1, 8, 17 and 18 of the book: "HTML & CSS" :books: :
+#### In this blog I will give a summary for the chapters 1, 8, 17 and 18 of the book: "HTML & CSS" and chapter 1 from the book: "Javascript and Jquery" :books: :
 
 - [x] *Chapter 1: Structure*
 - [x] *Chapter 8: Extra Markup*
 - [x] *Chapter 17: HTML5 Layout*
 - [x] *Chapter 18: Process & Design*
+- [x] *Chapter 1: The ABC of Programming*
 
 ##### Note: Keywords are emphasised.
 
@@ -23,6 +24,10 @@
 - Attributes require a ***name and a value***. 
 - To learn HTML you need to know what tags are available for you to use, and what they do.
 
+#### This is an image shows the structure of the HTML page
+
+![html](https://3.bp.blogspot.com/-sgm6BBz6KbM/VuarmPKRJ1I/AAAAAAAAG4Q/5GDCRhO09IgiCE2DQXhA0OVaxlylGWvvw/s1600/html-structure.png)
+
 
  ## Chapter 8: Extra Markup 
 
@@ -34,6 +39,12 @@
 - The ```<meta>``` tag allows you to supply all kinds of information about your web page.
 - ***Escape characters*** are used to include special characters in your pages such as `<`, `>`, and `©`.
 
+#### The two images below shows some markups:
+
+![mark1](https://image.slidesharecdn.com/understandingthewebpagelayout-170404052518/95/understanding-the-web-page-layout-4-638.jpg?cb=1491283572)
+
+![div](https://www.miltonmarketing.com/wp-content/uploads/2018/03/thedivelementhtmlmmmaxresdefault.jpg)
+
 
 ## Chapter 17: HTML5 Layout
 
@@ -41,6 +52,11 @@
 - The new elements provide clearer code (compared with using multiple <div> elements).
 - Older browsers that do not understand ***HTML5*** elements need to be told which elements are block-level elements.
 - To make HTML5 elements work in Internet Explorer 8 (and older versions of IE), extra JavaScript is needed, which is available free from Google.
+
+
+#### The image below shows a HTML layout structure 
+
+![lay](https://1.bp.blogspot.com/-byyR6UhzRlw/XqPR9QUH12I/AAAAAAAACf8/_h6ITaQ45h0dazPFuifNqe7OSMFNbZopgCLcBGAsYHQ/s1600/HTML%2Blayout.png)
 
 
 ## Chapter 18: Process & Design
@@ -51,3 +67,11 @@
 - ***Design*** is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
 - You can differentiate between pieces of information using ***size, color, and style***. 
 - You can use ***grouping and similarity*** to help simplify the information you present.
+
+
+## Chapter 1: The ABC of programming
+
+- A ***script*** is a series of instructions that the computer can follow in order to achieve a goal.
+- Each time the script runs, it might only use a *subset of all the instructions*.
+- Computers approach tasks in a different way than humans, so yhe instructions must let *the computer solve the task prggrammatically*.
+- To approach *writing a script*, break down the goal into a series of tasks and then work out each step needed to complete that task. 
