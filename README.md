@@ -1,5 +1,5 @@
 # Code 201 Reading Notes
-#### You can click on "View On Github" to see the original repo.
+#### You can click on ["View On Github"](https://github.com/fati-ma/201-reading-notes) ☝️ to see the original repo.
 
 #### Hello, This is Fatima. Welcome to my website where I will share my notes from the reading assignments of Code 201. 😀
 #### You can also view my website through this [link](https://fati-ma.github.io/201-reading-notes)
