@@ -5,11 +5,11 @@
 
 #### In this blog I will give a summary for the chapters 1, 8, 17 and 18 of the book: "HTML & CSS" and chapter 1 from the book: "Javascript and Jquery" :books: :
 
-- [x] *Chapter 1: Structure*
-- [x] *Chapter 8: Extra Markup*
-- [x] *Chapter 17: HTML5 Layout*
-- [x] *Chapter 18: Process & Design*
-- [x] *Chapter 1: The ABC of Programming*
+- [x] *Chapter 1: Structure* ✔️
+- [x] *Chapter 8: Extra Markup* ✔️
+- [x] *Chapter 17: HTML5 Layout* ✔️
+- [x] *Chapter 18: Process & Design* ✔️
+- [x] *Chapter 1: The ABC of Programming* ✔️
 
 ##### Note: Keywords are emphasised.
 
@@ -69,9 +69,35 @@
 - You can use ***grouping and similarity*** to help simplify the information you present.
 
 
+#### The below images shows a HTML page design with the best practices
+
+![design](https://designingforuncertainty.com/wp-content/uploads/2019/11/maxresdefault-10.jpg)
+
+
 ## Chapter 1: The ABC of programming
 
 - A ***script*** is a series of instructions that the computer can follow in order to achieve a goal.
 - Each time the script runs, it might only use a *subset of all the instructions*.
 - Computers approach tasks in a different way than humans, so yhe instructions must let *the computer solve the task prggrammatically*.
 - To approach *writing a script*, break down the goal into a series of tasks and then work out each step needed to complete that task. 
+
+
+### HTML dictionary 
+
+![dict](https://learn.g2.com/hs-fs/hubfs/HTML%20Dictionary.jpeg?width=600&name=HTML%20Dictionary.jpeg)
+
+### CSS cheat sheet
+
+![css](https://pbs.twimg.com/media/EEjfJXdXsAAgeYh.png)
+
+
+### This is a table shows the difference between HTML, CSS and Javascript
+
+| HTML      | CSS | Javascript |
+| :-----------: | :-----------: | :-----------: |
+| Structure      | Presentation       | Behavior       |
+| "What does it mean?"   | "What does it look like"        | "What does it do?"        |
+
+
+
+
