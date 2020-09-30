@@ -7,7 +7,7 @@
 
 | Reading number | Link |
 | :---: | :-----------: |
-| Read 01: Introductory HTML and JavaScript | https://fati-ma.github.io/201-reading-notes/class-01 |
+| Read 01: Introductory HTML and JavaScript | [Read01](https://fati-ma.github.io/201-reading-notes/class-01) |
 | Read 02  | Not taken yet |
 | Read 03  | Not taken yet |
 | Read 04  | Not taken yet |
