@@ -102,4 +102,56 @@ space too. This is known as
 
 ### Changes to Content `<ins>`  `<del>`  `<s>`
 
+
+## Chapter 10: Introducing CSS
+
+### CSS Associates Style rules with HTML elements
+
+![sel](https://miro.medium.com/max/3840/1*naFDyXh9iGtmvNRhhFY-og.png)
+
+### Using External CSS
+
+in the `<head>` tag
+
+```
+<link href="css/styles.css" type="text/css"
+ rel="stylesheet" />
+ ```
+ 
+ ### Using Internal CSS
+
+In the `head` tag
+
+```
+<style type="text/css">
+ body {
+ font-family: arial;
+ background-color: rgb(185,179,175);}
+ h1 {
+ color: rgb(255,255,255);}
+ </style>
+ ```
+ 
+ ### CSS Selectors
+ 
+ ![sel](https://i2.sitepoint.com/graphics/csstable1.gif)
+
+
+## Chapter 2: Basic JavaScript Instructions
+
+A ***script*** is a series of instructions that a computer can follow one-by-one.
+Each individual instruction or step is known as a **statement**. 
+
+### Comments 
+
+a ***multi-line*** comment, starting with
+the `/*` characters and ending with the `*/` characters. 
+
+In a ***single-line*** comment, anything that follows the
+two forward slash characters `//`
+
+
+
+
+
  
