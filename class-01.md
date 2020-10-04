@@ -2,6 +2,7 @@
 #### Read: 01 submission 
 
 #### Hello, This is Fatima. You can view my Markdown webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-01)
+#### You can go back to the [home](https://fati-ma.github.io/201-reading-notes/) page.
 
 #### In this blog I will give a summary for the chapters 1, 8, 17 and 18 of the book: "HTML & CSS" and chapter 1 from the book: "Javascript and Jquery" :books: :
 
