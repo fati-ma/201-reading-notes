@@ -21,50 +21,85 @@ describe both headings and paragraphs.
 - ***Semantic markup***: which provides extra information; such
 as where emphasis is placed in a sentence.
 
-#### Headings 
+### Headings 
+
+`<h1>` `<h2>` `<h3>` `<h4>` `<h5>` `<h6>`
+
 ```
-`<h1>`Heading 1</h1>
-`<h2>`Heading 2</h2>
-`<h3>`Heading 3</h3>
-`<h4>`Heading 4</h4>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
 ![headings](https://www.schudio.com/wp-content/uploads/2016/10/html-headings.png)
 
-#### Paragraphs
+### Paragraphs `<p>` `</p>`
+
 ```
-`<p>`A paragraph consists of one or more sentences
+<p>A paragraph consists of one or more sentences
  that form a self-contained unit of discourse. The
  start of a paragraph is indicated by a new
- line.`</p>`
+ line.</p>
  ```
-- Tags are often referred to as ***elements***. 
-- Tags usually come in ***pairs***. 
-- The ***opening tag*** denotes the start of a piece of content; the ***closing tag*** denotes the end.
-- Opening tags can carry ***attributes***, which tell us more about the content of that element.
-- Attributes require a ***name and a value***. 
-- To learn HTML you need to know what tags are available for you to use, and what they do.
+ 
+ ### Bold & Italic `<b>` `<i>`
+ 
+ ```
+ <p> I am normal text. </p>
+ <b> I am bold text. </b>
+ ```
+ 
+ ![bold](https://i1.wp.com/codewithrasbin.com/wp-content/uploads/2019/12/bold.jpg?resize=253%2C156&ssl=1)
+ 
+ ```
+ <i> I'm a italic text </i>
+ ```
+ 
+ ![italic](https://computerhindinotes.com/wp-content/uploads/2018/01/italic-1-e1516782735533.png)
+ 
+ ### Superscript & Subscrip `<sup>` `<sub>`
+ 
+ ![sub](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-07-at-1.47.12-PM.png)
+ 
+ ### White Space
+ 
+When the browser comes across
+two or more spaces next to each
+other, it only displays one space.
+Similarly if it comes across a line
+break, it treats that as a single
+space too. This is known as
+***white space collapsing***
 
-#### This is an image shows the structure of the HTML page
+### Line Breaks & Horizontal Rules `<br />`  `<hr />`
 
-![html](https://3.bp.blogspot.com/-sgm6BBz6KbM/VuarmPKRJ1I/AAAAAAAAG4Q/5GDCRhO09IgiCE2DQXhA0OVaxlylGWvvw/s1600/html-structure.png)
+```
+<p> This is <b /> a pragraph <b /> with line breaks </p>
+```
+![br](https://2.bp.blogspot.com/-kCW3h8n6naw/V4SGpLgHa3I/AAAAAAAAABY/FJaZA3pOpNE8l7y8xrpL7SCH6sRgcs02QCLcB/s1600/br.png)
 
+```
+<p> There is a horizontal rule below this paragraph. </p>
+<h />
+```
+![hr](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2018-09-27-at-4.31.37-AM.png)
 
- ## Chapter 8: Extra Markup 
+### Strong & Emphasis `<strong>` `<em>`
 
-- ***DOCTYPES*** tell browsers which version of HTML you are using.
-- You can add ***comments*** to your code between the <!-- and --> markers. 
-- The ***id and class*** attributes allow you to identify particular elements.
-- The ```<div>``` and ```<span>``` elements allow you to group block-level and inline elements together.
-- ```<iframes>``` cut windows into your web pages through which other pages can be displayed.
-- The ```<meta>``` tag allows you to supply all kinds of information about your web page.
-- ***Escape characters*** are used to include special characters in your pages such as `<`, `>`, and `©`.
+![st](https://lh3.googleusercontent.com/proxy/zmaxTfWNafuAvR2KPPlxOGS1RYS4GPF3a_n1ixdHadJjk3NWvWNFhIVXbeUB_d9WD0qSV45H60j3EGcl-VHlEObjYzE)
 
-#### The two images below shows some markups:
+### Quotations `<blockquote>`  `<q>`
 
-![mark1](https://image.slidesharecdn.com/understandingthewebpagelayout-170404052518/95/understanding-the-web-page-layout-4-638.jpg?cb=1491283572)
+![qo](https://abhilashraj.com/wp-content/uploads/2013/02/abhi_quote_2.png)
 
-![div](https://www.miltonmarketing.com/wp-content/uploads/2018/03/thedivelementhtmlmmmaxresdefault.jpg)
+### Abbreviations & Acronyms `<abbr> `
 
+### Citations & Definitions `<cite>`  `<dfn>`
 
+### Author Details `<address> `
+
+### Changes to Content `<ins>`  `<del>`  `<s>`
+
+ 
