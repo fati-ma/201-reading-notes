@@ -44,7 +44,8 @@ as where emphasis is placed in a sentence.
  line.</p>
  ```
  
- ### Bold & Italic `<b>` `<i>`
+ 
+### Bold & Italic `<b>` `<i>`
  
  ```
  <p> I am normal text. </p>
@@ -59,11 +60,13 @@ as where emphasis is placed in a sentence.
  
  ![italic](https://computerhindinotes.com/wp-content/uploads/2018/01/italic-1-e1516782735533.png)
  
- ### Superscript & Subscrip `<sup>` `<sub>`
+
+### Superscript & Subscrip `<sup>` `<sub>`
  
  ![sub](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-07-at-1.47.12-PM.png)
  
- ### White Space
+
+### White Space
  
 When the browser comes across
 two or more spaces next to each
@@ -72,6 +75,7 @@ Similarly if it comes across a line
 break, it treats that as a single
 space too. This is known as
 ***white space collapsing***
+
 
 ### Line Breaks & Horizontal Rules `<br />`  `<hr />`
 
@@ -86,13 +90,16 @@ space too. This is known as
 ```
 ![hr](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2018-09-27-at-4.31.37-AM.png)
 
+
 ### Strong & Emphasis `<strong>` `<em>`
 
 ![st](https://lh3.googleusercontent.com/proxy/zmaxTfWNafuAvR2KPPlxOGS1RYS4GPF3a_n1ixdHadJjk3NWvWNFhIVXbeUB_d9WD0qSV45H60j3EGcl-VHlEObjYzE)
 
+
 ### Quotations `<blockquote>`  `<q>`
 
 ![qo](https://abhilashraj.com/wp-content/uploads/2013/02/abhi_quote_2.png)
+
 
 ### Abbreviations & Acronyms `<abbr> `
 
@@ -105,9 +112,11 @@ space too. This is known as
 
 ## Chapter 10: Introducing CSS
 
+
 ### CSS Associates Style rules with HTML elements
 
 ![sel](https://miro.medium.com/max/3840/1*naFDyXh9iGtmvNRhhFY-og.png)
+
 
 ### Using External CSS
 
@@ -118,7 +127,7 @@ in the `<head>` tag
  rel="stylesheet" />
  ```
  
- ### Using Internal CSS
+### Using Internal CSS
 
 In the `head` tag
 
@@ -132,7 +141,7 @@ In the `head` tag
  </style>
  ```
  
- ### CSS Selectors
+### CSS Selectors
  
  ![sel](https://i2.sitepoint.com/graphics/csstable1.gif)
 
@@ -142,6 +151,7 @@ In the `head` tag
 A ***script*** is a series of instructions that a computer can follow one-by-one.
 Each individual instruction or step is known as a **statement**. 
 
+
 ### Comments 
 
 a ***multi-line*** comment, starting with
@@ -149,6 +159,68 @@ the `/*` characters and ending with the `*/` characters.
 
 In a ***single-line*** comment, anything that follows the
 two forward slash characters `//`
+
+### Variables 
+
+![var](https://1.bp.blogspot.com/-8UmWFTngfwY/XkVRuoPFfkI/AAAAAAAACmI/93j-FMkA9EYyoRIT1qlJ2sMUbobnWT1UgCLcBGAsYHQ/s1600/javascript_var.png)
+
+
+### Data Types
+
+![dtype](https://www.c-sharpcorner.com/article/datatypes-in-javascript/Images/Presentation20.jpg)
+
+
+### Arrays
+
+```
+var colors;
+colors ['white', 'black', ' custom']; 
+```
+
+### Operators
+
+![op](https://lh3.googleusercontent.com/proxy/PVPJA5XG4NPfk_FO6P3bON7EDyCC6tSqWtvRy5bJCmXO0xYOqd6jU20h_xht3IME2in-tkV_yO5sVvCu_up_iLdxUHg2nHknge7CC6i5)
+
+
+## Chapter 4: Decisions and Loops
+
+### Decision Making
+
+```
+if (score >= pass) {
+msg = 'Congratulations, you passed!';
+} else {
+msg = 'Have another go!';
+}
+```
+
+![de](https://media.geeksforgeeks.org/wp-content/uploads/if-else.png)
+
+
+### Switch
+
+```
+switch (level) {
+case 1:
+msg = 'Good luck on the first test ' ;
+break;
+case 2:
+msg = 'Second of three - keep going!';
+break;
+case 3:
+msg = ' Final round, al most there!';
+break;
+default :
+msg = 'Good l uck!';
+break;
+}
+```
+
+
+
+
+
+
 
 
 
