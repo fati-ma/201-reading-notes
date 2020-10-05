@@ -14,12 +14,14 @@
 
 ##### Note: Keywords are emphasised.
 
+
 ## Chapter 3: Lists
 
 - HTML provides three different types of lists:
     1. Ordered lists 
     2. Unordered lists
     3. Definition lists
+    
     
     
 ### Ordered Lists `<ol>` 
@@ -40,6 +42,7 @@
 3. Heat milk, butter and nutmeg
 4. Drain potatoes and mash
 5. Mix in the milk mixture
+
 
 
 ### Unordered Lists `<ul>`
@@ -102,6 +105,7 @@ Scamorzo
    An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)
 ```
 
+
 ### Nested Lists
 
 This can be done by putting a second list inside an <li> element to create a sublist or nested list.
@@ -130,6 +134,7 @@ Gives the following output:
 ![nes](https://www.in.gov/cmstraining/images/nestedlists.JPG)
 
 
+
 ## Chapter 13: Boxes
 
 There are several properties that affect the appearance of boxes:
@@ -139,9 +144,11 @@ There are several properties that affect the appearance of boxes:
 - Show and hide boxes
 
 
+
 ### Box Dimensios  `width`  `height`
 
 ![box](https://codebridgeplus.com/wp-content/uploads/css-height.jpg)
+
 
 
 ### Limiting Width  `min-width`  `max-width`
@@ -151,7 +158,9 @@ To page designs expand and shrink to fit the size of the user's screen.
 ![minmax](https://css-tricks.com/wp-content/uploads/2016/07/minmaxthing.gif)
 
 
+
 ### Limiting Height  `min-height`  `max-height`
+
 
 ### Overflowing Content `overflow`
 
@@ -163,9 +172,11 @@ It can have one of two values:
 ![overflow](https://codebridgeplus.com/wp-content/uploads/Csslist2_overflow.png)
 
 
+
 ### Border, Margin & Padding  `border`  `padding`  `margin`
 
 ![img](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png)
+
 
 
 ### Borders properties  `border-width` `border-style` `border-color` 
@@ -173,9 +184,11 @@ It can have one of two values:
 ![im](https://www.bookofnetwork.com/images/css-images/CSS_border_05Oct16_1037.png)
 
 
+
 ### Display `display`
 
 ![img](https://i1.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/06/CSS-Display.png?fit=474%2C379&ssl=1)
+
 
 
 ### Visibility  `visibility`
@@ -187,6 +200,7 @@ This property can take two values:
 ![img](https://i.stack.imgur.com/Ls1Lr.png)
 
 
+
 ### Border Image  `border-image`
 
 The border-image property applies an image to the border of any box. 
@@ -195,14 +209,89 @@ It takes a background image and slices it into nine pieces.
 ![img](https://www.c-sharpcorner.com/UploadFile/naresh.avari/css3-features-borders/Images/CSS3Features12.jpg)
 
 
+
 ### Box Shadows  `box-shadow`
 
 ![sha](https://i.pinimg.com/originals/f3/93/7f/f3937f36e8eb20cb8ec485d0222a2340.png)
 
 
+
 ### Rounded Corners and Elliptical Shapes  `border-radius`
 
 ![ima](https://www.1stwebdesigner.com/wp-content/uploads/2009/12/css3-tips-tricks-tutorials/border-radius-moz-css3-useful-webdev-webdesign-resources.jpg)
+
+
+
+## Chapter 2: Basic JavaScript Instructions
+
+A ***script*** is a series of instructions that a computer can follow one-by-one.
+Each individual instruction or step is known as a **statement**. 
+
+
+### Comments 
+
+a ***multi-line*** comment, starting with
+the `/*` characters and ending with the `*/` characters. 
+
+In a ***single-line*** comment, anything that follows the
+two forward slash characters `//`
+
+### Variables 
+
+![var](https://1.bp.blogspot.com/-8UmWFTngfwY/XkVRuoPFfkI/AAAAAAAACmI/93j-FMkA9EYyoRIT1qlJ2sMUbobnWT1UgCLcBGAsYHQ/s1600/javascript_var.png)
+
+
+### Data Types
+
+![dtype](https://www.c-sharpcorner.com/article/datatypes-in-javascript/Images/Presentation20.jpg)
+
+
+### Arrays
+
+```
+var colors;
+colors ['white', 'black', ' custom']; 
+```
+
+### Operators
+
+![op](https://lh3.googleusercontent.com/proxy/PVPJA5XG4NPfk_FO6P3bON7EDyCC6tSqWtvRy5bJCmXO0xYOqd6jU20h_xht3IME2in-tkV_yO5sVvCu_up_iLdxUHg2nHknge7CC6i5)
+
+
+## Chapter 4: Decisions and Loops
+
+
+### Decision Making
+
+```
+if (score >= pass) {
+msg = 'Congratulations, you passed!';
+} else {
+msg = 'Have another go!';
+}
+```
+
+![de](https://media.geeksforgeeks.org/wp-content/uploads/if-else.png)
+
+
+### Switch
+
+```
+switch (level) {
+case 1:
+msg = 'Good luck on the first test ' ;
+break;
+case 2:
+msg = 'Second of three - keep going!';
+break;
+case 3:
+msg = ' Final round, al most there!';
+break;
+default :
+msg = 'Good l uck!';
+break;
+}
+```
 
 
 
