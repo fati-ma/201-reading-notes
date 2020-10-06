@@ -16,7 +16,7 @@
 | Read 01: Introductory HTML and JavaScript | [Read01](https://fati-ma.github.io/201-reading-notes/class-01) |
 | Read 02: HTML Text, CSS Introduction, and Basic JavaScript Instructions  | [Read02](https://fati-ma.github.io/201-reading-notes/class-02) |
 | Read 03: HTML Lists, CSS Boxes, JS Control Flow  | [Read03](https://fati-ma.github.io/201-reading-notes/class-03) |
-| Read 04  | Not taken yet |
+| Read 04: HTML Links, CSS Layout, JS Functions  | [Read04](https://fati-ma.github.io/201-reading-notes/class-04) |
 | Read 05  | Not taken yet |
 | Read 06  | Not taken yet |
 | Read 07  | Not taken yet |
