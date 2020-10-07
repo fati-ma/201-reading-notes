@@ -73,7 +73,7 @@ so that the two are associated.
 
 `<figcaption>` : To allow web page authors to add a caption to an image.
 
-![fig](https://freefrontend.com/assets/img/html-figure-and-figcapture-with-css/Picture-Cards-Figure-Figcaption.jpg)
+![fig](https://i.stack.imgur.com/1gpkT.png)
 
 
 
