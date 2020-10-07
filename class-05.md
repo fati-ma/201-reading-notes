@@ -77,3 +77,153 @@ so that the two are associated.
 
 
 
+## Chapter 11: Color
+
+`color` : The color property allows you to specify the color of text inside an element.
+
+We can specify any color in CSS in one of three ways:
+1. rgb values
+2. hex codes
+3. color names
+
+
+```
+/* color name */
+h1 {
+  color: DarkCyan;}
+/* hex code */
+h2 {
+  color: #ee3e80;}
+/* rgb value */
+p {
+  color: rgb(100,100,90);}
+```
+
+`background-color` :  the background-color property sets the color of the background 
+
+```
+body {
+   background-color: rgb(200,200,200);}
+h1 {
+   background-color: DarkCyan;}
+h2 {
+   background-color: #ee3e80;}
+p {
+   background-color: white;}
+```
+
+
+### Understanding Color
+
+Every color on a computer screen is created by mixing amounts of red,
+green, and blue. To find the color you want, we can use a `color picker`.
+
+
+![picker](https://raw.githubusercontent.com/brianpkelley/md-color-picker/master/md-color-picker-2.png)
+
+
+#### Hue, Saturation and Brightness
+
+
+![hue](https://3.bp.blogspot.com/-9vvvg45dX-Y/UjCNW96hbTI/AAAAAAAAAO8/jPUpBJ4fZsM/s1600/hsl-color-model.png)
+
+
+### Opacity
+
+`opacity` 
+`rgba`
+
+![op](https://lh3.googleusercontent.com/proxy/meGiUTKciH0EVXnMABdLMl9U9hrRwLO_bUKDXFoxbpnjR4cmy_gqs2cdilkrp6BUSf7oRHY7iLHGwlCusjndoGmkv4Ci_wrT0JsbaA)
+
+
+## Chapter 12: Text
+
+
+### Typeface Terminology
+
+
+`Serif `
+`Sans-Serif`
+`Monospace`
+
+
+![txt](https://s2.ax1x.com/2020/01/15/lXHifs.png)
+
+
+`Weight` : Light Medium Bold Black
+`Style` : Normal Italic Oblique
+`Stretch` : Condensed Regular Extended
+
+### Units of Type Size
+
+`pixels: px` 
+`percentage: %`
+`ems: em`
+
+
+![size](https://user.oc-static.com/upload/2018/04/30/15251064835155_fontsizes.png)
+
+
+`@font-face` allows to use a font, even if it is not installed on the computer of the person browsing, by allowing you to specify a path to a copy of the font.
+
+```
+@font-face {
+   font-family: 'ChunkFiveRegular';
+   src: url('fonts/chunkfive.eot');}
+h1, h2 {
+   font-family: ChunkFiveRegular, Georgia, serif;}
+```
+
+### Underline & Strike
+
+`text-decoration` :
+  - `none`
+  - `underline`
+  - `overline`
+  - `line-through`
+  - `blink`
+  
+  
+### Keywords
+  
+`line-height`
+`letter-spacing`
+`word-spacing`
+`text-align`
+`vertical-align`
+`text-indent`
+`text-shadow`
+`:first-letter` 
+`:first-line`
+`:link` 
+`:visited`
+`:hover` 
+`:active` 
+`:focus`
+
+
+### Attribute Selectors
+
+
+1. Existence : `[]` Matches a specific attribute
+
+2. Equality : `[=]` Matches a specific attribute with a specific value
+
+3. Space : `[~=]` Matches a specific attribute whose value appears in a spaceseparated list of words
+
+4. Prefix : `[^=]` Matches a specific attribute whose value begins with a
+specific string
+
+5. SubString : `[*=]` Matches a specific attribute whose value contains a specific
+substring
+
+6. Suffix : `[$=]` Matches a specific attribute whose value ends with a specific
+string
+  
+  
+
+
+
+
+
+
