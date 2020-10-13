@@ -224,7 +224,63 @@ interactive.
 HTML events are "things" that happen to HTML elements.
 When JavaScript is used in HTML pages, JavaScript can "react" on these events.
 
-![event](/events.jpg)
+### How Events Trigger Javascript Code
+
+By **Event Handling**
+
+1. Select the element
+node(s) you want the
+script to respond to. 
+
+2. Indicate which event on
+the selected node(s) will
+trigger the response. 
+
+3. State the code you want
+to run when the event
+occurs. 
+
+### DOM Event Handlers
+
+element.onevent = functionName;
+
+### Events Listeners 
+
+element .addEventlistener('event', functionName [, Boolean]) ;
+
+
+### The Event Object
+
+When an event occurs, the event object tells
+you information about the event, and the
+element it happened upon. 
+
+
+### Kye points
+
+- Events are the browser's way of indicating when
+something has happened.
+
+- Binding is the process of stating which event users are
+waiting to happen, and which element users are waiting
+for that event to happen upon.
+
+- When an event occurs on an element, it can trigger a
+JavaScript function. When this function then changes
+the web page in some way, it feels interactive because
+it has responded to the user.
+
+- Event delegation are used to monitor for events
+that happen on all of the children of an element.
+
+- The most commonly used events are W3C DOM
+events.
+
+
+
+
+
+
 
 
 
