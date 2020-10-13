@@ -21,7 +21,7 @@
 | Read 06: JS Object Literals; The DOM  | [Read06](https://fati-ma.github.io/201-reading-notes/class-06) |
 | Read 07: HTML Tables; JS Constructor Functions  | [Read07](https://fati-ma.github.io/201-reading-notes/class-07) |
 | Read 08: CSS Layout  | [Read08](https://fati-ma.github.io/201-reading-notes/class-08) |
-| Read 09  | Not taken yet |
+| Read 09: Forms and Events  | [Read09](https://fati-ma.github.io/201-reading-notes/class-09) |
 | Read 10  | Not taken yet |
 | Read 11  | Not taken yet |
 | Read 12  | Not taken yet |
