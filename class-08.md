@@ -1,7 +1,7 @@
 # More CSS Layout
 #### Read: 08 submission 
 
-#### Hello, This is Fatima. You can view my Markdown webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-08)
+#### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-08)
 #### You can go back to the [home](https://fati-ma.github.io/201-reading-notes/) page.
 
 #### In this blog I will give a summary for the chapter 15 of the book: "HTML & CSS" :books:
