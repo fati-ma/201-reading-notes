@@ -40,9 +40,6 @@ img.two {
 }
 ```
 
-![img1](https://www.w3schools.com/css/ocean.jpg)
-![img2](https://www.w3schools.com/css/ocean.jpg)
-
 
 ### Aligning images Using CSS
 
