@@ -23,7 +23,7 @@
 | Read 08: CSS Layout  | [Read08](https://fati-ma.github.io/201-reading-notes/class-08) |
 | Read 09: Forms and Events  | [Read09](https://fati-ma.github.io/201-reading-notes/class-09) |
 | Read 10: JS Debugging  | [Read10](https://fati-ma.github.io/201-reading-notes/class-10) |
-| Read 11  | Not taken yet |
+| Read 11: Audio, Video, Images  | [Read11](https://fati-ma.github.io/201-reading-notes/class-11) |
 | Read 12  | Not taken yet |
 | Read 13  | Not taken yet |
 | Read 14  | Not taken yet |
