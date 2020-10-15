@@ -4,10 +4,12 @@
 #### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-11)
 #### You can go back to the [home](https://fati-ma.github.io/201-reading-notes/) page.
 
-#### In this blog I will give a summary for the chapters 7 and 14 of the book: "HTML & CSS" :books: 
+#### In this blog I will give a summary for the chapters 16 and 19 of the book: "HTML & CSS" and this [reading article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs) :books: 
 
 - [x] *Chapter 16: Images* ✔️
 - [x] *Chapter 19: Practical Information* ✔️
+- [x] *Article: Video and Audio APIs* ✔️
+
 
 
 #### Note: Keywords are emphasised.
@@ -226,8 +228,56 @@ computer to your hosting company, you use
 something known as `File Transfer Protocol`.
 
 
+### Article: Video and Audio APIs
 
+The `<video>` and `<audio>` elements allow us to embed video and audio into web pages.
 
+```
+<video controls>
+  <source src="rabbit320.mp4" type="video/mp4">
+  <source src="rabbit320.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+</video>
+```
+
+the `controls` attribut enables the default set of playback controls. If it's not specified there will be no playback controls.
+
+Part of the HTML5 spec, the `HTMLMediaElement API` provides features to allow to control video and audio players programmatically — for example `HTMLMediaElement.play()`, `HTMLMediaElement.pause()`, etc. This interface is available to both `<audio>` and `<video>` elements as well.
+
+**Playing and pausing the video**
+
+`playPauseMedia()`
+
+```
+play.addEventListener('click', playPauseMedia);
+```
+
+`playPauseMedia()`
+
+```
+function playPauseMedia() {
+  if(media.paused) {
+    play.setAttribute('data-icon','u');
+    media.play();
+  } else {
+    play.setAttribute('data-icon','P');
+    media.pause();
+  }
+}
+```
+
+`stopMedia()`
+
+```
+function stopMedia() {
+  media.pause();
+  media.currentTime = 0;
+  play.setAttribute('data-icon','P');
+}
+```
+
+`mediaBackward()`  
+`mediaForward()`
 
 
 
