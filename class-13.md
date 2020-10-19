@@ -73,3 +73,52 @@ function handle_storage(e) {
 ```
 
 ## LIMITATIONS IN CURRENT BROWSERS
+
+“5 megabytes” is how much storage space each origin gets by default. This is surprisingly consistent across browsers, although it is phrased as no more than a suggestion in the HTML5 Storage specification. One thing to keep in mind is that you’re storing strings, not data in its original format. If you’re storing a lot of integers or floats, the difference in representation can really add up. Each digit in that float is being stored as a character, not in the usual representation of a floating point number.
+
+
+## HTML5 STORAGE IN ACTION
+
+Supposing we are woking on some game:
+
+How does it work? Every time a change occurs within the game, we call this function:
+
+```
+function saveGameState() {
+    if (!supportsLocalStorage()) { return false; }
+    localStorage["halma.game.in.progress"] = gGameInProgress;
+    for (var i = 0; i < kNumPieces; i++) {
+	localStorage["halma.piece." + i + ".row"] = gPieces[i].row;
+	localStorage["halma.piece." + i + ".column"] = gPieces[i].column;
+    }
+    localStorage["halma.selectedpiece"] = gSelectedPieceIndex;
+    localStorage["halma.selectedpiecehasmoved"] = gSelectedPieceHasMoved;
+    localStorage["halma.movecount"] = gMoveCount;
+    return true;
+}
+```
+it uses the localStorage object to save whether there is a game in progress (gGameInProgress, a Boolean). 
+
+Using HTML5 Storage, the resumeGame() function checks whether a state about a game-in-progress is stored locally. If so, it restores those values using the localStorage object.
+
+```
+function resumeGame() {
+    if (!supportsLocalStorage()) { return false; }
+    gGameInProgress = (localStorage["halma.game.in.progress"] == "true");
+    if (!gGameInProgress) { return false; }
+    gPieces = new Array(kNumPieces);
+    for (var i = 0; i < kNumPieces; i++) {
+	var row = parseInt(localStorage["halma.piece." + i + ".row"]);
+	var column = parseInt(localStorage["halma.piece." + i + ".column"]);
+	gPieces[i] = new Cell(row, column);
+    }
+    gNumPieces = kNumPieces;
+    gSelectedPieceIndex = parseInt(localStorage["halma.selectedpiece"]);
+    gSelectedPieceHasMoved = localStorage["halma.selectedpiecehasmoved"] == "true";
+    gMoveCount = parseInt(localStorage["halma.movecount"]);
+    drawBoard();
+    return true;
+}
+```
+
+
