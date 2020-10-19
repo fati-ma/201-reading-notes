@@ -24,8 +24,8 @@
 | Read 09: Forms and Events  | [Read09](https://fati-ma.github.io/201-reading-notes/class-09) |
 | Read 10: JS Debugging  | [Read10](https://fati-ma.github.io/201-reading-notes/class-10) |
 | Read 11: Audio, Video, Images  | [Read11](https://fati-ma.github.io/201-reading-notes/class-11) |
-| Read 12: Docs for the HTML <canvas> Element and Chartjs  | [Read12](https://fati-ma.github.io/201-reading-notes/class-12) |
-| Read 13  | Not taken yet |
+| Read 12: Docs for the HTML canvas Element and Chartjs  | [Read12](https://fati-ma.github.io/201-reading-notes/class-12) |
+| Read 13: Local Storage  | [Read13](https://fati-ma.github.io/201-reading-notes/class-13) |
 | Read 14  | Not taken yet |
 | Read 15  | Not taken yet |
 
