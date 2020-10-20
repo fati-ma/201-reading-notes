@@ -1,7 +1,7 @@
 # CSS Transforms, Transitions, and Animations
 #### Read: 14a submission -  CSS Transforms, Transitions, and Animations
 
-#### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-14)
+#### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-14a)
 #### You can go back to the [home](https://fati-ma.github.io/201-reading-notes/) page.
 
 #### In this blog I will give a summary for the below reading articles: 
