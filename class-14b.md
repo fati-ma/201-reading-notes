@@ -1,7 +1,7 @@
 # What Google Learned About Teams
 #### Read: 14a submission -  What Google Learned About Teams
 
-#### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-14a)
+#### Hello, This is Fatima. You can view my webpage using the following [link](https://fati-ma.github.io/201-reading-notes/class-14b)
 #### You can go back to the [home](https://fati-ma.github.io/201-reading-notes/) page.
 
 #### In this blog I will give a summary for the below reading article: 
